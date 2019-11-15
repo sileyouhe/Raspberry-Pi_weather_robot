@@ -32,7 +32,8 @@ UI设计： QT5 + pyqt
 
 文件介绍
 ----
-weather_UI.py ：使用QT creator设计想要的界面，生成ui文件，再使用pyqt把ui文件转换成python代码  
+release_first.ui  ：使用QT creator设计想要的界面后生成ui文件
+weather_UI.py ：使用pyqt把release_first.ui文件转换的python代码，可以运行
 get_weather.py: 向和风天气API发起查询天气请求，返回JSON文件格式的天气信息  
 brocast.py：把需要播报的文字内容上传给百度语音合成API，把合成的语音存储为MP3文件，在树莓派端使用mplayer播放  
 speech_recognition.py : 在树莓派端使用arecord命令录音并生成文件保存，把生成的文件上传到百度语音识别库AipSpeech进行识别  
