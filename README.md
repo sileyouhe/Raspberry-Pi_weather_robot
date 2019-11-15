@@ -15,7 +15,7 @@ Linux (Raspberry-Pi)
 ----
 软件  
 UI： QT5 + pyqt  
-天气：和风天气API  + python request库
+天气：和风天气API  + python request库  
 搭配推荐：python request库从服务器数据库获取（服务器由其他项目成员负责）  
 语音识别：百度语音识别库AipSpeech  
 语音播报：百度在线语音合成API + mplayer(Linux)  
