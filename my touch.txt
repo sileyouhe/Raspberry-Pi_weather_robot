@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Touch
+Comment=My Touch Program
+Exec=sudo python3 /home/pi/tianqi/touch.py &
+Icon=/home/pi/tianqi/weather.png
+Terminal=false
+MultipleArgs=false
+Type=Application
+Categories=Application;Development;
+StartupNotify=true

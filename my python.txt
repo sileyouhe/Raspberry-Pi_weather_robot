@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=GUI
+Comment=My GUI Program
+Exec=sudo python3 /home/pi/tianqi/release_first.py
+Icon=/home/pi/tianqi/weather.png
+Terminal=false
+MultipleArgs=false
+Type=Application
+Categories=Application;Development;
+StartupNotify=true
+
