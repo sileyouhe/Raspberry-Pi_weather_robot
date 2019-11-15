@@ -11,7 +11,7 @@ python 3.7
 pycharm(windows)  
 Linux (Raspberry-Pi)  
 
-技术
+使用的库和技术
 ----
 软件  
 UI： QT5 + pyqt  
