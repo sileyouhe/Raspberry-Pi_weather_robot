@@ -1,10 +1,15 @@
 # Raspberry-Pi_weather_robot
 ====
 
-介绍：一个能获取天气，获取当日搭配推荐，支持语音识别、语音播报的机器人。
+项目介绍
 ----
+能播报天气，播报当日符合天气状况的穿衣搭配推荐，支持简单语音识别和交流的机器人。
 
-编程语言：python 3.7
+运行环境
+---
+python 3.7 
+pycharm(windows)
+Linux (Raspberry-Pi)
 
 技术：
 ----
@@ -23,12 +28,12 @@ UI： QT5 + pyqt
 触控： HTTM电容式触摸开关  
 
 
-每个文件的主要功能：
+文件介绍：
 ----
 weather_UI.py ：使用QT creator设计想要的界面，生成ui文件，再使用pyqt把ui文件转换成python代码  
 get_weather.py: 向和风天气API发起查询天气请求，返回JSON文件格式的天气信息  
 brocast.py：把需要播报的文字内容上传给百度语音合成API，把合成的语音存储为MP3文件，在树莓派端使用mplayer播放  
-speech_recognition.py : 在树莓派端使用arecord命令录音，调用百度语音识别库AipSpeech进行识别  
+speech_recognition.py : 在树莓派端使用arecord命令录音并生成文件保存，把生成的文件上传到百度语音识别库AipSpeech进行识别  
 get_recommend.py：携带机器码向服务器端发起请求，获取今日搭配推荐
 
 
