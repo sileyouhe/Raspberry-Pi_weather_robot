@@ -8,8 +8,8 @@
 运行环境
 ---
 python 3.7 
-pycharm(windows)
-Linux (Raspberry-Pi)
+pycharm(windows)  
+Linux (Raspberry-Pi)  
 
 技术：
 ----
