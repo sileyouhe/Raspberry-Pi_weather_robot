@@ -15,10 +15,11 @@ UI： QT5 + pyqt
 语音识别：百度语音识别库AipSpeech  
 语音播报：百度在线语音合成API + mplayer(Linux)  
 
+
 硬件  
-树莓派 3B+ 主板  安装python3.7环境
+树莓派 3B+ 主板  安装python3.7环境  
 屏幕显示：树莓派3.5寸 HDMI显示屏 支持触控  
-录音：外接声卡 + 独立麦克风 + arecord(Linux录音命令)
+录音：外接声卡 + 独立麦克风 + arecord(Linux录音命令)  
 触控： HTTM电容式触摸开关  
 
 
