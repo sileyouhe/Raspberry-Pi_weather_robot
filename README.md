@@ -28,7 +28,7 @@ UI： QT5 + pyqt
 触控： HTTM电容式触摸开关  
 
 
-文件介绍：
+文件介绍
 ----
 weather_UI.py ：使用QT creator设计想要的界面，生成ui文件，再使用pyqt把ui文件转换成python代码  
 get_weather.py: 向和风天气API发起查询天气请求，返回JSON文件格式的天气信息  
