@@ -17,7 +17,7 @@ Linux (Raspberry-Pi)
 
 Technologies Used
 ----
-**Software** 
+**Software**   
 UI： QT5 + PYQT  
 Weather Information：HeWeather API  , Python Request 
 Clothing Recommendation：Python Request  , MySQL  
