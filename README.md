@@ -17,18 +17,18 @@ Linux (Raspberry-Pi)
 
 Technologies Used
 ----
-Software:  
+**Software** 
 UI： QT5 + PYQT  
-Weather Information：HeWeather API  + Python Request 
-Clothing Recommendation：Python Request  + MySQL
-Voice Recognization：Baidu AI API
-Broadcast：Baidu AI API + mplayer(Linux)  
+Weather Information：HeWeather API  , Python Request 
+Clothing Recommendation：Python Request  , MySQL  
+Voice Recognization：Baidu AI API  
+Broadcast：Baidu AI API , mplayer(Linux)  
 
 
-Hardware:
+**Hardware**  
 Raspberry Pi 3 Model B+ (Linux + Python3.7)  
 Monitor：3.5 inch HDMI LCD  
-Record：Usb Sound Card + Usb microphone + arecord 
+Record：Usb Sound Card + Usb microphone + arecord  
 
 
 
