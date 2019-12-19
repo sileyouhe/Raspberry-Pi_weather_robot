@@ -34,15 +34,17 @@ Record：Usb Sound Card + Usb microphone + arecord
 
 Files Description
 ----
-`release_first.ui`  ：Generate this UI file after designing the User Interface with QT Creator 
+`release_first.ui`  ：Generate this UI file after designing the User Interface with **QT Creator** 
 
 `weather_UI.py` ：Use pyqt to convert the release_first.ui file to python file
 
-`get_weather.py`: Send a request to the HeWeather API and return weather information in the JSON file format
+`get_weather.py`: Send a request to the **HeWeather API** and return weather information in the JSON file format
 
-`brocast.py`：Upload the text  to the Baidu speech synthesis API, store the synthesized speech as an MP3 file, and use mplayer to play on the Raspberry Pi. 
-`speech_recognition.py` : 在树莓派端使用arecord命令录音并生成文件保存，把生成的文件上传到百度语音识别库AipSpeech进行识别  
-`get_recommend.py`：携带机器码向服务器端发起请求，获取今日搭配推荐
+`brocast.py`：Upload the text to the **Baidu speech synthesis API**, store the synthesized speech as an MP3 file, and use **mplayer** to play on the Raspberry Pi.  
+
+`speech_recognition.py` : Use the **arecord** command in linux to record the user commend and save the file. Upload the generated file to **Baidu speech recognition API** for identification.  
+
+`get_recommend.py`：Send the request to our clothing recommendation server with a unique machine code, get today's recommendation
 
 
 
