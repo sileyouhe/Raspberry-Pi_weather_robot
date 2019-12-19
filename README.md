@@ -7,7 +7,7 @@ A entrepreneurship program from March to October in 2018
 
 A Raspberry Pi robot 
 
-Weather brocast, clothing recommendation, voice recognization, simple communication
+Weather broadcast, clothing recommendation, voice recognition, simple communication
 
 Development Environment
 ---
@@ -21,7 +21,7 @@ Technologies Used
 UI： QT5 + PYQT  
 Weather Information：HeWeather API  , Python Request 
 Clothing Recommendation：Python Request  , MySQL  
-Voice Recognization：Baidu AI API  
+Voice recognition：Baidu AI API  
 Broadcast：Baidu AI API , mplayer(Linux)  
 
 
@@ -40,7 +40,7 @@ Files Description
 
 `get_weather.py`: Send a request to the **HeWeather API** and return weather information in the JSON file format
 
-`brocast.py`：Upload the text to the **Baidu speech synthesis API**, store the synthesized speech as an MP3 file, and use **mplayer** to play on the Raspberry Pi.  
+`broadcast.py`：Upload the text to the **Baidu speech synthesis API**, store the synthesized speech as an MP3 file, and use **mplayer** to play on the Raspberry Pi.  
 
 `speech_recognition.py` : Use the **arecord** command in linux to record the user commend and save the file. Upload the generated file to **Baidu speech recognition API** for identification.  
 
