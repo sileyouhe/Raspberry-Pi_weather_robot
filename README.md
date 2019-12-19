@@ -1,6 +1,51 @@
 # Raspberry-Pi_weather_robot
 
 
+Introduction
+----
+A entrepreneurship program from March to October in 2018
+
+A Raspberry Pi robot 
+
+Weather brocast, clothing recommendation, voice recognization, simple communication
+
+Development Environment
+---
+python 3.7 
+pycharm(windows)  
+Linux (Raspberry-Pi)  
+
+Technologies Used
+----
+Software:  
+UI： QT5 + PYQT  
+Weather Information：HeWeather API  + Python Request 
+Clothing Recommendation：Python Request  + MySQL
+Voice Recognization：Baidu AI API
+Broadcast：Baidu AI API + mplayer(Linux)  
+
+
+Hardware:
+Raspberry Pi 3 Model B+ (Linux + Python3.7)  
+Monitor：3.5 inch HDMI LCD  
+Record：Usb Sound Card + Usb microphone + arecord 
+
+
+
+Files Description
+----
+`release_first.ui`  ：Generate this UI file after designing the User Interface with QT Creator 
+
+`weather_UI.py` ：Use pyqt to convert the release_first.ui file to python file
+
+`get_weather.py`: Send a request to the HeWeather API and return weather information in the JSON file format
+
+`brocast.py`：Upload the text  to the Baidu speech synthesis API, store the synthesized speech as an MP3 file, and use mplayer to play on the Raspberry Pi. 
+`speech_recognition.py` : 在树莓派端使用arecord命令录音并生成文件保存，把生成的文件上传到百度语音识别库AipSpeech进行识别  
+`get_recommend.py`：携带机器码向服务器端发起请求，获取今日搭配推荐
+
+
+
 项目介绍
 ----
 2018年大三下和大四上的一个十人项目  
