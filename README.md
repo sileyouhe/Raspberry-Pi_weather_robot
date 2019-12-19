@@ -9,7 +9,7 @@ A Raspberry Pi robot
 
 Weather broadcast, clothing recommendation, voice recognition, simple communication
 
-Development Environment
+Development Tools
 ---
 Python 3.7 
 Pycharm(Windows)  
