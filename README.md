@@ -11,8 +11,8 @@ Weather brocast, clothing recommendation, voice recognization, simple communicat
 
 Development Environment
 ---
-python 3.7 
-pycharm(windows)  
+Python 3.7 
+Pycharm(Windows)  
 Linux (Raspberry-Pi)  
 
 Technologies Used
@@ -36,7 +36,7 @@ Files Description
 ----
 `release_first.ui`  ：Generate this UI file after designing the User Interface with **QT Creator** 
 
-`weather_UI.py` ：Use pyqt to convert the release_first.ui file to python file
+`weather_UI.py` ：Use **PYQT** to convert the release_first.ui file to python file
 
 `get_weather.py`: Send a request to the **HeWeather API** and return weather information in the JSON file format
 
